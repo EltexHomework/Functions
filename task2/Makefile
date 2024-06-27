@@ -1,5 +1,5 @@
 CC := gcc
-CFLAGS := -Wall -Werror -O2
+CFLAGS := -fno-stack-protector -no-pie -g
 
 SRC_DIR := src
 BIN_DIR := bin
